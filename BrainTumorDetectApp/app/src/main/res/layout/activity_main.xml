@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Brain Tumor Detection"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/brainImage"
+        android:layout_width="315dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/brain_blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:riv_border_color="@color/black"
+        app:riv_border_width="2dip"
+        app:riv_corner_radius="20dip"
+        app:riv_mutate_background="true" />
+
+    <Button
+        android:id="@+id/button_select"
+        android:layout_width="166dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/input_field"
+        android:fontFamily="sans-serif"
+        android:text="Select"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/teal_700"
+        app:layout_constraintEnd_toEndOf="@+id/brainImage"
+        app:layout_constraintStart_toStartOf="@+id/brainImage"
+        app:layout_constraintTop_toBottomOf="@+id/brainImage" />
+
+    <Button
+        android:id="@+id/button_predict"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/input_field"
+        android:fontFamily="sans-serif"
+        android:text="Predict"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/purple_200"
+        app:layout_constraintEnd_toEndOf="@+id/button_select"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button_select"
+        app:layout_constraintTop_toBottomOf="@+id/button_select"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/outputView"
+        android:layout_width="205dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif"
+        android:text="OUTPUT"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button_predict"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/button_predict"
+        app:layout_constraintTop_toBottomOf="@+id/button_predict"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
