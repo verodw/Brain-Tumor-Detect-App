@@ -1,1 +1,1 @@
-# Brain-Tumor-Detect-App
+# Brain Tumor Detection App
