@@ -13,4 +13,11 @@ The brain tumor image dataset was obtained from Kaggle and used for training and
 ![BrainTumorDetection](https://github.com/user-attachments/assets/2e78f6ee-67b4-4a84-85f9-5281baf00307)
 
 
+## Demo App
+The video showcases the model's real-time inference capabilities and demonstrates how the mobile app performs brain tumor detection from selected images.
+
+https://github.com/user-attachments/assets/08c7b530-c7c9-45a2-98cc-6f0d3cb5dd1d
+
+
+
 
