@@ -12,5 +12,5 @@ The brain tumor image dataset was obtained from Kaggle and used for training and
 
 ![BrainTumorDetection](https://github.com/user-attachments/assets/2e78f6ee-67b4-4a84-85f9-5281baf00307)
 
-https://github.com/user-attachments/assets/7288903b-882e-4959-82cb-d9a64d4d6aea
+
 
