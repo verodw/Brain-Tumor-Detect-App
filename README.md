@@ -9,3 +9,5 @@ This project leverages deep learning techniques to detect brain tumors in medica
 • Real-time Inference: The mobile app processes images and runs inference directly on the device, making the solution portable and efficient.
 
 The brain tumor image dataset was obtained from Kaggle and used for training and validating the model.
+
+![BrainTumorDetection](https://github.com/user-attachments/assets/2e78f6ee-67b4-4a84-85f9-5281baf00307)
